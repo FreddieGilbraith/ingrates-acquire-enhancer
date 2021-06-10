@@ -12,14 +12,18 @@
 		"prepushOnly": "npm run format && npm run test && npm run build",
 		"prepublishOnly": "npm run format && npm run test && npm run build"
 	},
-	"author": "",
+	"author": "Freddie Gilbraith <freddie.gilbraith@littlebonsai.co.uk",
 	"license": "ISC",
 	"sideEffects": false,
 	"source": "src/index.js",
 	"module": "dist/index.module.js",
 	"unpkg": "dist/index.umd.js",
-	"exports": "./dist/foo.modern.js",
+	"exports": "./dist/index.modern.js",
 	"files": ["/src", "/dist", "/README.md"],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/FreddieGilbraith/ingrates-acquire-enhancer.git"
+	},
 	"babel": {
 		"presets": ["@babel/preset-env"]
 	},
