@@ -1,6 +1,6 @@
 {
 	"name": "@little-bonsai/ingrates-acquire-enhancer",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Either spawn or get and existing ingrates actor address",
 	"main": "dist/index.js",
 	"scripts": {
